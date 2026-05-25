@@ -4,8 +4,8 @@ let el = Document.getElementById("level");
 let level = 0;
 
 while (el){
-	level++
 	el = el.parentElement;
+	level++
 }
 
-alert = ("The level of the element is: " +level);
+alert(`The level of the element is: $(level)`)
