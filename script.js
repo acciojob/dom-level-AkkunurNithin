@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const elm = Document.getElmentId(level);
+const el = Document.getElmentId(level);
 
 var level = 0;
 
