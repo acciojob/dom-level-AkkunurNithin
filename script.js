@@ -1,7 +1,7 @@
 //your JS code here. If required.
-const el = Document.getElementById("level");
+let el = Document.getElementById("level");
 
-var level = 0;
+let level = 0;
 
 while (el){
 	level++
